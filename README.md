@@ -1,6 +1,6 @@
 # Google1
 Erste Schritte
-Wär des ohne den Maestro möglich?
+Wäre des ohne den Maestro möglich?
 
 ## Unser erstes GAS-Script
 
