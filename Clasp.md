@@ -21,7 +21,7 @@ Folgende Tabelle zeigt die wesentlichen Schritte, um genau diesen Komfort zu bew
 | [Scripts disabled?](https://www.google.com/search?q=error+Visual+Studio+terminal+script+running+power+shell&ei=TfEIZKTgF9TBlAbplJSgCw&ved=0ahUKEwjkuuyfl839AhXUIMUKHWkKBbQQ4dUDCBA&uact=5&oq=error+Visual+Studio+terminal+script+running+power+shell&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzoFCAAQogRKBAhBGABQAFi6CGCUC2gAcAF4AIABbYgBygSSAQMzLjOYAQCgAQHAAQE&sclient=gws-wiz-serp#fpstate=ive&vld=cid:5984ff59,vid:X7mg3pJfhZQ) | im VS Code Terminal mit *clasp -v* die Version prüfen, falls Scripts disabled, die Windows Power Shell als Admin öffnen und dort<br>-> *Get-ExecutionPolicy -List* , falls Scope-Eintrag bei localMachine=Restricted<br>-> *Set-ExecutionPolicy Unrestricted* und mit *J* quittieren|
 | Terminal | Clasp-Login mit *clasp login* und dabei entsprechenden Google-Account auswählen|
 | Terminal | Node-Projekt initialisieren mit *npm init* , dabei alles quittieren -> package.json|
-| Terminal | GAS-Projekt lokal clonen mit *clasp clone "&lt;GAS-Projekt-ID&gt;" --rootDir src*|
+| Terminal | GAS-Projekt lokal clonen mit *clasp clone "&lt;GAS-Projekt-ID&gt;" --rootDir src*<br>.clasp.json auf Rootebene verschieben|
 | Terminal | Source-Dateien von lokal in die Cloud kopieren mit *clasp push*<br>Alternativ mit *clasp push -w* , dann automatisch nach speichern in VS Code|
 | Terminal | Source-Dateien von der Cloud nach lokal kopieren mit *clasp pull*|
 | [Terminal](https://github.com/google/clasp/blob/master/docs/typescript.md) | Code autocomplete mit *npm i -S @types/google-apps-script*|
