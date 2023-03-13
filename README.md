@@ -33,7 +33,7 @@ function onLoad(){
 
 [Was ist ein Maestromuster?](Maestro.md)
 
-[Was ist ein Wernermuster?](Werner.md)
+[Was ist ein Wernermuster?](Clasp.md)
 
 [Erstes Beipiel?](001_Beispiel/Beschreibung.md)
 
