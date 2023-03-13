@@ -9,7 +9,7 @@ Inhaltlich identische Skript-Dateien werden dabei mit unterschiedlichen Dateiend
 Folgende Tabelle zeigt die wesentlichen Schritte, um genau diesen Komfort zu bewerkstelligen. 
 
 | Link / App | Bemerkung |
-|:-------------- |-----------------------------------------|
+|:---------------- |-----------------------------------------|
 | [Google Account](https://www.google.com/) | mit Google Account einloggen, ggf. zuvor Konto erstellen |
 | [GAS Settings](https://script.google.com/home/usersettings) | Google Apps Script API einschalten |
 | [GAS Script](https://developers.google.com/apps-script/guides/standalone?hl=de) | Eigenständigen oder gebundenen Skript-Type erstellen |
